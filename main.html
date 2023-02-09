@@ -8,10 +8,7 @@
 
 <body>
 	<form method="post">
-		<div>
-			<label for="portfolio"></label>
-			<input type="url" id="portfolio" placeholder="enter url">
-		</div>
+		
 		
 		<div>
 		<label for="name">Name*</label>
@@ -24,21 +21,16 @@
 		
 	</div>
 		<div>
-			<label for="gender">gender*</label><br>
-		<label for="male">male</label>
-		<input type="radio" id="male" name="gender"required>
-			<label for="female">female</label>
-		<input type="radio" id="female" name="gender" required>
-			<label for="others">others</label>
-		<input type="radio" id="others" name="gender" required>
-		
-	</div>
+			<label for="gender">gender*</label>
+		<input type="radio" id="gender" name="gender"required>Male
+		<input type="radio" id="gender" name="gender" required>Female</div>
 		<div>
-			<lable for="laptop">Laptop brands</lable>
+			
+		<lable for="laptop">Laptop brands</lable>
 		<select id="laptop">
-			<option value="apple">Apple</option>
-			<option value="asus">Asus</option>
-			<option value="HP">HP</option>
+			<option name="laptop">Apple</option>
+			<option name="laptop">Asus</option>
+			<option name="laptop">HP</option>
 		</select>
 			
 		
@@ -60,14 +52,16 @@
 		
 	</div>
 		<div>
-		<label for="submit"></label>
-		<input type="submit" id="submit">
-		
-	</div>
-		<div>
-			<label for="portfolio"></label>
+			<label for="portfolio">Portfolio link</label>
 			<input type="url" id="portfolio" placeholder="enter url">
 		</div>
+
+
+		
+		<div>
+		<button type="submit">submit</button> 
+		
+	</div>
 		
 		
 	</form>
